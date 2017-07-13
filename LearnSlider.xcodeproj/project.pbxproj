@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9708E46D1F0DD9D400F1C923 /* SLSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9708E46C1F0DD9D400F1C923 /* SLSegmentedControl.m */; };
+		9708E46F1F0DD9E000F1C923 /* SLSegmentedControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9708E46E1F0DD9E000F1C923 /* SLSegmentedControl.xib */; };
+		973DBA421EFD003600B6B8FA /* SLBorrowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 973DBA411EFD003500B6B8FA /* SLBorrowView.xib */; };
+		973DBA451EFD004D00B6B8FA /* SLBorrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 973DBA441EFD004D00B6B8FA /* SLBorrowView.m */; };
 		9767A2A31ED8095C00F11A01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9767A2A21ED8095C00F11A01 /* main.m */; };
 		9767A2A61ED8095C00F11A01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9767A2A51ED8095C00F11A01 /* AppDelegate.m */; };
 		9767A2A91ED8095C00F11A01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9767A2A81ED8095C00F11A01 /* ViewController.m */; };
@@ -16,6 +20,8 @@
 		9767A2B41ED8095C00F11A01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9767A2B21ED8095C00F11A01 /* LaunchScreen.storyboard */; };
 		9767A2BF1ED8095C00F11A01 /* LearnSliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9767A2BE1ED8095C00F11A01 /* LearnSliderTests.m */; };
 		9767A2CA1ED8095C00F11A01 /* LearnSliderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9767A2C91ED8095C00F11A01 /* LearnSliderUITests.m */; };
+		97BBFEC71F0FB8BE0020B5BD /* SLSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BBFEC61F0FB8BE0020B5BD /* SLSlider.m */; };
+		97BBFEC91F0FB8F90020B5BD /* SLSlider.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97BBFEC81F0FB8F90020B5BD /* SLSlider.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9708E46B1F0DD9D400F1C923 /* SLSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLSegmentedControl.h; sourceTree = "<group>"; };
+		9708E46C1F0DD9D400F1C923 /* SLSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLSegmentedControl.m; sourceTree = "<group>"; };
+		9708E46E1F0DD9E000F1C923 /* SLSegmentedControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLSegmentedControl.xib; sourceTree = "<group>"; };
+		973DBA411EFD003500B6B8FA /* SLBorrowView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLBorrowView.xib; sourceTree = "<group>"; };
+		973DBA431EFD004D00B6B8FA /* SLBorrowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBorrowView.h; sourceTree = "<group>"; };
+		973DBA441EFD004D00B6B8FA /* SLBorrowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBorrowView.m; sourceTree = "<group>"; };
 		9767A29E1ED8095C00F11A01 /* LearnSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9767A2A21ED8095C00F11A01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9767A2A41ED8095C00F11A01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +65,9 @@
 		9767A2C51ED8095C00F11A01 /* LearnSliderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnSliderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9767A2C91ED8095C00F11A01 /* LearnSliderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnSliderUITests.m; sourceTree = "<group>"; };
 		9767A2CB1ED8095C00F11A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97BBFEC51F0FB8BE0020B5BD /* SLSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLSlider.h; sourceTree = "<group>"; };
+		97BBFEC61F0FB8BE0020B5BD /* SLSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLSlider.m; sourceTree = "<group>"; };
+		97BBFEC81F0FB8F90020B5BD /* SLSlider.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLSlider.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +122,15 @@
 				9767A2A51ED8095C00F11A01 /* AppDelegate.m */,
 				9767A2A71ED8095C00F11A01 /* ViewController.h */,
 				9767A2A81ED8095C00F11A01 /* ViewController.m */,
+				973DBA431EFD004D00B6B8FA /* SLBorrowView.h */,
+				973DBA441EFD004D00B6B8FA /* SLBorrowView.m */,
+				973DBA411EFD003500B6B8FA /* SLBorrowView.xib */,
+				9708E46B1F0DD9D400F1C923 /* SLSegmentedControl.h */,
+				9708E46C1F0DD9D400F1C923 /* SLSegmentedControl.m */,
+				9708E46E1F0DD9E000F1C923 /* SLSegmentedControl.xib */,
+				97BBFEC51F0FB8BE0020B5BD /* SLSlider.h */,
+				97BBFEC61F0FB8BE0020B5BD /* SLSlider.m */,
+				97BBFEC81F0FB8F90020B5BD /* SLSlider.xib */,
 				9767A2AA1ED8095C00F11A01 /* Main.storyboard */,
 				9767A2B01ED8095C00F11A01 /* Assets.xcassets */,
 				9767A2B21ED8095C00F11A01 /* LaunchScreen.storyboard */,
@@ -210,7 +234,7 @@
 				TargetAttributes = {
 					9767A29D1ED8095C00F11A01 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 863952Q9B2;
+						DevelopmentTeam = 4A75LEU8F4;
 						ProvisioningStyle = Automatic;
 					};
 					9767A2B91ED8095C00F11A01 = {
@@ -252,8 +276,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9708E46F1F0DD9E000F1C923 /* SLSegmentedControl.xib in Resources */,
 				9767A2B41ED8095C00F11A01 /* LaunchScreen.storyboard in Resources */,
 				9767A2B11ED8095C00F11A01 /* Assets.xcassets in Resources */,
+				97BBFEC91F0FB8F90020B5BD /* SLSlider.xib in Resources */,
+				973DBA421EFD003600B6B8FA /* SLBorrowView.xib in Resources */,
 				9767A2AC1ED8095C00F11A01 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,9 +307,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9767A2A91ED8095C00F11A01 /* ViewController.m in Sources */,
+				9708E46D1F0DD9D400F1C923 /* SLSegmentedControl.m in Sources */,
+				973DBA451EFD004D00B6B8FA /* SLBorrowView.m in Sources */,
 				9767A2AF1ED8095C00F11A01 /* LearnSlider.xcdatamodeld in Sources */,
 				9767A2A61ED8095C00F11A01 /* AppDelegate.m in Sources */,
 				9767A2A31ED8095C00F11A01 /* main.m in Sources */,
+				97BBFEC71F0FB8BE0020B5BD /* SLSlider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,10 +461,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 863952Q9B2;
+				DEVELOPMENT_TEAM = 4A75LEU8F4;
 				INFOPLIST_FILE = LearnSlider/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Learn.LearnSlider;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Learn.LearnBorrow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -443,10 +473,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 863952Q9B2;
+				DEVELOPMENT_TEAM = 4A75LEU8F4;
 				INFOPLIST_FILE = LearnSlider/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Learn.LearnSlider;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Learn.LearnBorrow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -520,6 +550,7 @@
 				9767A2D01ED8095C00F11A01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9767A2D11ED8095C00F11A01 /* Build configuration list for PBXNativeTarget "LearnSliderTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +559,7 @@
 				9767A2D31ED8095C00F11A01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9767A2D41ED8095C00F11A01 /* Build configuration list for PBXNativeTarget "LearnSliderUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +568,7 @@
 				9767A2D61ED8095C00F11A01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -1,14 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13156.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13137.5"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +21,51 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VY0-i3-zpx" customClass="SLBorrowView">
+                                <rect key="frame" x="0.0" y="50" width="375" height="132"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="132" id="TAo-fZ-UyS"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tFH-cH-YkH" customClass="SLSegmentedControl">
+                                <rect key="frame" x="16" y="190" width="343" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="jIQ-e2-ol9"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jdg-4c-uBi">
+                                <rect key="frame" x="16" y="326" width="343" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="98a-A7-sTh"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="tFH-cH-YkH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="RUT-ZL-d8R"/>
+                            <constraint firstItem="tFH-cH-YkH" firstAttribute="top" secondItem="VY0-i3-zpx" secondAttribute="bottom" constant="8" id="c79-0u-PO9"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="VY0-i3-zpx" secondAttribute="trailing" constant="-16" id="dlK-l5-sEa"/>
+                            <constraint firstItem="VY0-i3-zpx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="gZq-09-tb9"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="tFH-cH-YkH" secondAttribute="trailing" id="hdy-h7-Nx3"/>
+                            <constraint firstItem="jdg-4c-uBi" firstAttribute="top" secondItem="tFH-cH-YkH" secondAttribute="bottom" constant="8" id="mDt-eE-hGa"/>
+                            <constraint firstItem="jdg-4c-uBi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="pxV-WR-DdU"/>
+                            <constraint firstItem="jdg-4c-uBi" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="tBg-6q-IUb"/>
+                            <constraint firstItem="VY0-i3-zpx" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="50" id="zcX-Zo-VQ1"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="slBorrowView" destination="VY0-i3-zpx" id="zth-Vy-N94"/>
+                        <outlet property="slSegmentedControl" destination="tFH-cH-YkH" id="Xdz-Bv-u2T"/>
+                        <outlet property="sliderContentView" destination="jdg-4c-uBi" id="857-SV-G22"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="135.19999999999999" y="136.28185907046478"/>
         </scene>
     </scenes>
 </document>
