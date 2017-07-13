@@ -65,6 +65,8 @@
 		9767A2C51ED8095C00F11A01 /* LearnSliderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnSliderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9767A2C91ED8095C00F11A01 /* LearnSliderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnSliderUITests.m; sourceTree = "<group>"; };
 		9767A2CB1ED8095C00F11A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97B584EB1F177CE500D28FEE /* 2017-07-13 17_13_01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "2017-07-13 17_13_01.gif"; sourceTree = "<group>"; };
+		97B584EC1F177CE500D28FEE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		97BBFEC51F0FB8BE0020B5BD /* SLSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLSlider.h; sourceTree = "<group>"; };
 		97BBFEC61F0FB8BE0020B5BD /* SLSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLSlider.m; sourceTree = "<group>"; };
 		97BBFEC81F0FB8F90020B5BD /* SLSlider.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLSlider.xib; sourceTree = "<group>"; };
@@ -98,6 +100,8 @@
 		9767A2951ED8095C00F11A01 = {
 			isa = PBXGroup;
 			children = (
+				97B584EB1F177CE500D28FEE /* 2017-07-13 17_13_01.gif */,
+				97B584EC1F177CE500D28FEE /* README.md */,
 				9767A2A01ED8095C00F11A01 /* LearnSlider */,
 				9767A2BD1ED8095C00F11A01 /* LearnSliderTests */,
 				9767A2C81ED8095C00F11A01 /* LearnSliderUITests */,
