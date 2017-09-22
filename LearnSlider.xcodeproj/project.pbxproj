@@ -11,7 +11,6 @@
 		9708E46F1F0DD9E000F1C923 /* SLSegmentedControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9708E46E1F0DD9E000F1C923 /* SLSegmentedControl.xib */; };
 		973DBA421EFD003600B6B8FA /* SLBorrowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 973DBA411EFD003500B6B8FA /* SLBorrowView.xib */; };
 		973DBA451EFD004D00B6B8FA /* SLBorrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 973DBA441EFD004D00B6B8FA /* SLBorrowView.m */; };
-		97473B0F1F74F0AF001F6379 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97473B0E1F74F0AF001F6379 /* View.xib */; };
 		9767A2A31ED8095C00F11A01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9767A2A21ED8095C00F11A01 /* main.m */; };
 		9767A2A61ED8095C00F11A01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9767A2A51ED8095C00F11A01 /* AppDelegate.m */; };
 		9767A2A91ED8095C00F11A01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9767A2A81ED8095C00F11A01 /* ViewController.m */; };
@@ -49,7 +48,6 @@
 		973DBA411EFD003500B6B8FA /* SLBorrowView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLBorrowView.xib; sourceTree = "<group>"; };
 		973DBA431EFD004D00B6B8FA /* SLBorrowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBorrowView.h; sourceTree = "<group>"; };
 		973DBA441EFD004D00B6B8FA /* SLBorrowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBorrowView.m; sourceTree = "<group>"; };
-		97473B0E1F74F0AF001F6379 /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 		9767A29E1ED8095C00F11A01 /* LearnSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9767A2A21ED8095C00F11A01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9767A2A41ED8095C00F11A01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -99,14 +97,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		97473B0D1F74F07C001F6379 /* Folder */ = {
-			isa = PBXGroup;
-			children = (
-				97473B0E1F74F0AF001F6379 /* View.xib */,
-			);
-			path = Folder;
-			sourceTree = "<group>";
-		};
 		9767A2951ED8095C00F11A01 = {
 			isa = PBXGroup;
 			children = (
@@ -142,7 +132,6 @@
 				9708E46B1F0DD9D400F1C923 /* SLSegmentedControl.h */,
 				9708E46C1F0DD9D400F1C923 /* SLSegmentedControl.m */,
 				9708E46E1F0DD9E000F1C923 /* SLSegmentedControl.xib */,
-				97473B0D1F74F07C001F6379 /* Folder */,
 				97BBFEC51F0FB8BE0020B5BD /* SLSlider.h */,
 				97BBFEC61F0FB8BE0020B5BD /* SLSlider.m */,
 				97BBFEC81F0FB8F90020B5BD /* SLSlider.xib */,
@@ -291,7 +280,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97473B0F1F74F0AF001F6379 /* View.xib in Resources */,
 				9708E46F1F0DD9E000F1C923 /* SLSegmentedControl.xib in Resources */,
 				9767A2B41ED8095C00F11A01 /* LaunchScreen.storyboard in Resources */,
 				9767A2B11ED8095C00F11A01 /* Assets.xcassets in Resources */,
